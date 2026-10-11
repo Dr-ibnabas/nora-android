@@ -1,0 +1,10 @@
+name: nora_workspace
+description: NORA — assistant IA hors connexion pour l'autonomie des personnes en situation de handicap.
+publish_to: none
+
+environment:
+  sdk: ^3.6.0
+
+# Chaque package ajouté au projet est déclaré ici (voir docs/ARCHITECTURE.md).
+workspace:
+  - packages/nora_core

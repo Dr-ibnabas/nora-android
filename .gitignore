@@ -1,0 +1,11 @@
+.dart_tool/
+build/
+.idea/
+*.iml
+.vscode/
+local.properties
+
+# Les modèles ne vont pas dans git : seul models/manifest.yaml est versionné.
+models/**
+!models/manifest.yaml
+!models/README.md
